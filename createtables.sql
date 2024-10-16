@@ -5,6 +5,4 @@ CREATE TABLE Employees (
     Email VARCHAR(100),
     HireDate DATE,
     Salary DECIMAL(10, 2),
-    DepartmentID INT,
-    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
-);
+  );
